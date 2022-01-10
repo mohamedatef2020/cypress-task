@@ -1,8 +1,7 @@
 {
     "baseUrl": "https://www.staging.maiia.com/",
     "integrationFolder": "cypress/integration",
-    "testFiles": "**/*.{feature,features}",
-    "ignoreTestFiles": "*.js",
+    "ignoreTestFiles": "**model.js",
     "screenshotsFolder": "cypress/screenshots",
     "videosFolder": "cypress/videos",
     "viewportWidth": 1515,
