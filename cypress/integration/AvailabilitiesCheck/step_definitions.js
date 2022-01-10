@@ -1,6 +1,7 @@
 import { And, Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
 Given('I go to {string}', url => {
+    cy.intercept("GET", "**consultation-reason-hcd?consultationReasonName=Ablation**").as("loadDates");
     cy.visit(url);
 });
 
@@ -16,5 +17,6 @@ And('I choose the reason {string}', reason => {
 });
 
 Then('I see the availability', () => {
-    cy.get(".search-card__rdv").should('be.visible');
+    cy.wait("@loadDates");
+    cy.get(".search-card__rdv.availability-calendar").should('be.visible');
 });
