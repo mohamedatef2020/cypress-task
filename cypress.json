@@ -1,6 +1,6 @@
 {
-    "baseUrl": "https://www.staging.maiia.com/",
-    "integrationFolder": "cypress/integration",
+  "baseUrl": "https://www.adp.com/resources/tools/calculators/states/new-york-salary-paycheck-calculator.aspx",
+  "integrationFolder": "cypress/integration",
     "testFiles": "**/*.{feature,features}",
     "ignoreTestFiles": "*.js",
     "screenshotsFolder": "cypress/screenshots",

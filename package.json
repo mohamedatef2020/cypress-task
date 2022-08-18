@@ -1,16 +1,30 @@
 {
-  "name": "cypress-task",
+  "name": "cypress-sample-using-cucumber-bdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample BDD test scenario using cypress and cucumber",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:headless": "cypress run",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedatef2020/Cypress-sample-using-Cucumber-BDD.git"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber",
+    "POM",
+    "test-automation",
+    "javascript"
+  ],
+  "author": "Mohamed Atef",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedatef2020/Cypress-sample-using-Cucumber-BDD/issues"
+  },
+  "homepage": "https://github.com/mohamedatef2020/Cypress-sample-using-Cucumber-BDD#readme",
+
   "dependencies": {
     "cypress": "^9.2.0"
   },
